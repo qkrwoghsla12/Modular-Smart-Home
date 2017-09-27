@@ -1,0 +1,14 @@
+#! /bin/bash
+
+PROJECT_DIR="/var/www/html/record"
+cd $PROJECT_DIR
+
+while :; do
+	x=$(find $(date +%F)/*.avi)
+	a=$(echo $x | awk -F ' ' '{print $1}')
+	if [ -n $a ]; then
+		q=$(echo $a | awk -F '.' '{print $1}')
+		sudo ffmpeg -i $a -c:v libx264 -c:a copy $q.mp4
+		sudo rm $a
+	fi
+done
