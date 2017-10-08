@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "655393091891",
+    "firebase_url": "https://smarthome2-30a1f.firebaseio.com",
+    "project_id": "smarthome2-30a1f",
+    "storage_bucket": "smarthome2-30a1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655393091891:android:6b56613d1e08a3d9",
+        "android_client_info": {
+          "package_name": "app.park.smarthome2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655393091891-aeffg3o8sd0snll80121su5bbu497jve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRPyfyHOUs3z6FJZUJBC90Qqp-avX98Qo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655393091891:android:53fd4fe5c47fb96a",
+        "android_client_info": {
+          "package_name": "app.park.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655393091891-aeffg3o8sd0snll80121su5bbu497jve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRPyfyHOUs3z6FJZUJBC90Qqp-avX98Qo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
